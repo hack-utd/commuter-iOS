@@ -10,6 +10,7 @@ target 'Whooosh' do
   pod 'Arrow'
   pod 'ClusterKit'
   pod 'FFPopup'
+  pod 'IQKeyboardManagerSwift'
   pod 'SwiftyJSON'
   pod 'FontAwesome.swift'
   pod 'Kingfisher'

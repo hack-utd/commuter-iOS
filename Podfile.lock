@@ -5,6 +5,7 @@ PODS:
   - ClusterKit/Core (0.3.5)
   - FFPopup (1.0.0)
   - FontAwesome.swift (1.4.8)
+  - IQKeyboardManagerSwift (6.2.0)
   - Kingfisher (5.0.1)
   - Mapbox-iOS-SDK (4.7.1)
   - SwiftyJSON (4.2.0)
@@ -14,6 +15,7 @@ DEPENDENCIES:
   - ClusterKit
   - FFPopup
   - FontAwesome.swift
+  - IQKeyboardManagerSwift
   - Kingfisher
   - Mapbox-iOS-SDK
   - SwiftyJSON
@@ -24,6 +26,7 @@ SPEC REPOS:
     - ClusterKit
     - FFPopup
     - FontAwesome.swift
+    - IQKeyboardManagerSwift
     - Kingfisher
     - Mapbox-iOS-SDK
     - SwiftyJSON
@@ -33,10 +36,11 @@ SPEC CHECKSUMS:
   ClusterKit: d8cc410748bdaacf5051c9353fb6a62d78245554
   FFPopup: f1a9c2bb1df9d9cd254f15081e74112d9ccb6969
   FontAwesome.swift: fb8637bffb9a588c7e8c753c084565b27b20a39d
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
   Kingfisher: 4f771421b9208185217550528a06fd48756cb7c2
   Mapbox-iOS-SDK: f9292a75e8cd5eb828f4432623bfc48aac42146a
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: cf97fada6f70b673f7f75988331662450cf4809f
+PODFILE CHECKSUM: bfb47e07afe9420ebcc99e03e4bde68619643e1e
 
 COCOAPODS: 1.5.3

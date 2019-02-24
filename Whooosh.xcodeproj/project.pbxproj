@@ -13,13 +13,14 @@
 		A52EA676221FF19C00C5055E /* Inbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EA675221FF19C00C5055E /* Inbox.swift */; };
 		A52EA678221FF1B000C5055E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EA677221FF1B000C5055E /* Profile.swift */; };
 		A52EA67A221FF33700C5055E /* modalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EA679221FF33700C5055E /* modalInfoView.swift */; };
-		A52EA67C221FF34A00C5055E /* modalInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A52EA67B221FF34A00C5055E /* modalInfoView.xib */; };
 		A52EA67E221FF3B700C5055E /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EA67D221FF3B700C5055E /* UserClass.swift */; };
 		A52EA680221FF41500C5055E /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EA67F221FF41500C5055E /* UIExtensions.swift */; };
 		A52EA682221FF49D00C5055E /* jobsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EA681221FF49D00C5055E /* jobsTableView.swift */; };
 		A52EA684221FF4BA00C5055E /* jobsFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EA683221FF4BA00C5055E /* jobsFilterView.swift */; };
 		A52EA686221FF4D500C5055E /* searchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EA685221FF4D500C5055E /* searchController.swift */; };
 		A52EA688221FF51B00C5055E /* walkThroughViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EA687221FF51B00C5055E /* walkThroughViews.swift */; };
+		A53C222D2221F6EC00F4DF40 /* SearchQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53C222C2221F6EC00F4DF40 /* SearchQuery.swift */; };
+		A53C2230222205D700F4DF40 /* ARCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53C222F222205D700F4DF40 /* ARCamera.swift */; };
 		A558C9F7221D3C7B0052D29E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A558C9F6221D3C7B0052D29E /* AppDelegate.swift */; };
 		A558C9F9221D3C7B0052D29E /* Jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A558C9F8221D3C7B0052D29E /* Jobs.swift */; };
 		A558C9FB221D3C7B0052D29E /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = A558C9FA221D3C7B0052D29E /* Community.swift */; };
@@ -31,6 +32,15 @@
 		A558CA29221D3D6B0052D29E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A558CA28221D3D6B0052D29E /* Constants.swift */; };
 		A558CA2A221D3D6B0052D29E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A558CA28221D3D6B0052D29E /* Constants.swift */; };
 		A558CA2B221D3D6B0052D29E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A558CA28221D3D6B0052D29E /* Constants.swift */; };
+		A5A98F0A2222E8C3002AC872 /* jobPostingModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A98F092222E8C3002AC872 /* jobPostingModal.xib */; };
+		A5A98F0B2222E8C3002AC872 /* jobPostingModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A98F092222E8C3002AC872 /* jobPostingModal.xib */; };
+		A5A98F0C2222E8C3002AC872 /* jobPostingModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A98F092222E8C3002AC872 /* jobPostingModal.xib */; };
+		A5A98F0E2222E9AE002AC872 /* housingPostingModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A98F0D2222E9AE002AC872 /* housingPostingModal.xib */; };
+		A5A98F0F2222E9AE002AC872 /* housingPostingModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A98F0D2222E9AE002AC872 /* housingPostingModal.xib */; };
+		A5A98F102222E9AE002AC872 /* housingPostingModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A98F0D2222E9AE002AC872 /* housingPostingModal.xib */; };
+		A5A98F122222EBE1002AC872 /* rideSharingPlannerModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A98F112222EBE1002AC872 /* rideSharingPlannerModal.xib */; };
+		A5A98F132222EBE1002AC872 /* rideSharingPlannerModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A98F112222EBE1002AC872 /* rideSharingPlannerModal.xib */; };
+		A5A98F142222EBE1002AC872 /* rideSharingPlannerModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A98F112222EBE1002AC872 /* rideSharingPlannerModal.xib */; };
 		B0F3558E66C36C327318B0C0 /* Pods_WhoooshUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE01C646C16220521E72E61 /* Pods_WhoooshUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,13 +70,14 @@
 		A52EA675221FF19C00C5055E /* Inbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inbox.swift; sourceTree = "<group>"; };
 		A52EA677221FF1B000C5055E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		A52EA679221FF33700C5055E /* modalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modalInfoView.swift; sourceTree = "<group>"; };
-		A52EA67B221FF34A00C5055E /* modalInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = modalInfoView.xib; sourceTree = "<group>"; };
 		A52EA67D221FF3B700C5055E /* UserClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
 		A52EA67F221FF41500C5055E /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 		A52EA681221FF49D00C5055E /* jobsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobsTableView.swift; sourceTree = "<group>"; };
 		A52EA683221FF4BA00C5055E /* jobsFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobsFilterView.swift; sourceTree = "<group>"; };
 		A52EA685221FF4D500C5055E /* searchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchController.swift; sourceTree = "<group>"; };
 		A52EA687221FF51B00C5055E /* walkThroughViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walkThroughViews.swift; sourceTree = "<group>"; };
+		A53C222C2221F6EC00F4DF40 /* SearchQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchQuery.swift; path = Whooosh/Components/SearchQuery.swift; sourceTree = SOURCE_ROOT; };
+		A53C222F222205D700F4DF40 /* ARCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCamera.swift; sourceTree = "<group>"; };
 		A558C9F3221D3C7B0052D29E /* Whooosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whooosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A558C9F6221D3C7B0052D29E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A558C9F8221D3C7B0052D29E /* Jobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jobs.swift; sourceTree = "<group>"; };
@@ -82,6 +93,9 @@
 		A558CA18221D3C7C0052D29E /* WhoooshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoooshUITests.swift; sourceTree = "<group>"; };
 		A558CA1A221D3C7C0052D29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A558CA28221D3D6B0052D29E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A5A98F092222E8C3002AC872 /* jobPostingModal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = jobPostingModal.xib; sourceTree = "<group>"; };
+		A5A98F0D2222E9AE002AC872 /* housingPostingModal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = housingPostingModal.xib; sourceTree = "<group>"; };
+		A5A98F112222EBE1002AC872 /* rideSharingPlannerModal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = rideSharingPlannerModal.xib; sourceTree = "<group>"; };
 		A8C2BE0B413FF0AADA9D9807 /* Pods-WhoooshUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoooshUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhoooshUITests/Pods-WhoooshUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EBE01C646C16220521E72E61 /* Pods_WhoooshUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhoooshUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5BFB4F14B03B0BD5BC731D /* Pods-Whooosh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whooosh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Whooosh/Pods-Whooosh.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +153,14 @@
 				A52EA677221FF1B000C5055E /* Profile.swift */,
 			);
 			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		A53C222E2222058900F4DF40 /* AR Camera Components */ = {
+			isa = PBXGroup;
+			children = (
+				A53C222F222205D700F4DF40 /* ARCamera.swift */,
+			);
+			path = "AR Camera Components";
 			sourceTree = "<group>";
 		};
 		A558C9EA221D3C7B0052D29E = {
@@ -210,12 +232,16 @@
 		A558CA27221D3CA40052D29E /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				A53C222E2222058900F4DF40 /* AR Camera Components */,
 				A52EA679221FF33700C5055E /* modalInfoView.swift */,
+				A5A98F092222E8C3002AC872 /* jobPostingModal.xib */,
+				A5A98F0D2222E9AE002AC872 /* housingPostingModal.xib */,
+				A5A98F112222EBE1002AC872 /* rideSharingPlannerModal.xib */,
 				A52EA681221FF49D00C5055E /* jobsTableView.swift */,
 				A52EA683221FF4BA00C5055E /* jobsFilterView.swift */,
-				A52EA67B221FF34A00C5055E /* modalInfoView.xib */,
 				A52EA685221FF4D500C5055E /* searchController.swift */,
 				A52EA687221FF51B00C5055E /* walkThroughViews.swift */,
+				A53C222C2221F6EC00F4DF40 /* SearchQuery.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -338,8 +364,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A98F0A2222E8C3002AC872 /* jobPostingModal.xib in Resources */,
+				A5A98F122222EBE1002AC872 /* rideSharingPlannerModal.xib in Resources */,
+				A5A98F0E2222E9AE002AC872 /* housingPostingModal.xib in Resources */,
 				A558CA03221D3C7C0052D29E /* LaunchScreen.storyboard in Resources */,
-				A52EA67C221FF34A00C5055E /* modalInfoView.xib in Resources */,
 				A558CA00221D3C7C0052D29E /* Assets.xcassets in Resources */,
 				A558C9FE221D3C7B0052D29E /* Main.storyboard in Resources */,
 			);
@@ -349,6 +377,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A98F0F2222E9AE002AC872 /* housingPostingModal.xib in Resources */,
+				A5A98F132222EBE1002AC872 /* rideSharingPlannerModal.xib in Resources */,
+				A5A98F0B2222E8C3002AC872 /* jobPostingModal.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +387,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A98F102222E9AE002AC872 /* housingPostingModal.xib in Resources */,
+				A5A98F142222EBE1002AC872 /* rideSharingPlannerModal.xib in Resources */,
+				A5A98F0C2222E8C3002AC872 /* jobPostingModal.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +453,7 @@
 				"${BUILT_PRODUCTS_DIR}/ClusterKit/ClusterKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FFPopup/FFPopup.framework",
 				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
@@ -432,6 +467,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ClusterKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFPopup.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
 				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
@@ -473,8 +509,10 @@
 			files = (
 				A52EA676221FF19C00C5055E /* Inbox.swift in Sources */,
 				A52EA673221FEDB200C5055E /* Color-Management.swift in Sources */,
+				A53C222D2221F6EC00F4DF40 /* SearchQuery.swift in Sources */,
 				A558C9FB221D3C7B0052D29E /* Community.swift in Sources */,
 				A52EA680221FF41500C5055E /* UIExtensions.swift in Sources */,
+				A53C2230222205D700F4DF40 /* ARCamera.swift in Sources */,
 				A52EA678221FF1B000C5055E /* Profile.swift in Sources */,
 				A52EA686221FF4D500C5055E /* searchController.swift in Sources */,
 				A558C9F7221D3C7B0052D29E /* AppDelegate.swift in Sources */,
@@ -662,6 +700,7 @@
 			baseConfigurationReference = ED5BFB4F14B03B0BD5BC731D /* Pods-Whooosh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZZP22A3W8;
 				INFOPLIST_FILE = Whooosh/Info.plist;
@@ -681,6 +720,7 @@
 			baseConfigurationReference = 0D6ABE1788885DD08F684097 /* Pods-Whooosh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4ZZP22A3W8;
 				INFOPLIST_FILE = Whooosh/Info.plist;

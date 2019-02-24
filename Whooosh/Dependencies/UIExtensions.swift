@@ -105,3 +105,49 @@ extension UITableView {
         return indexPathForRow(at: location)
     }
 }
+
+//===========================================
+// MARK: UIImage extension
+//===========================================
+extension UIImage {
+    static func render(size: CGSize, _ draw: () -> Void) -> UIImage? {
+        UIGraphicsBeginImageContext(size)
+        defer { UIGraphicsEndImageContext() }
+        
+        draw()
+        
+        return UIGraphicsGetImageFromCurrentImageContext()?
+            .withRenderingMode(.alwaysTemplate)
+    }
+    
+    static func make(size: CGSize, color: UIColor = .white) -> UIImage? {
+        return render(size: size) {
+            color.setFill()
+            UIRectFill(CGRect(origin: .zero, size: size))
+        }
+    }
+}
+
+// POST REQUEST REQUIRMENTS
+
+extension Dictionary {
+    func percentEscaped() -> String {
+        return map { (key, value) in
+            let escapedKey = "\(key)".addingPercentEncoding(withAllowedCharacters: .urlQueryValueAllowed) ?? ""
+            let escapedValue = "\(value)".addingPercentEncoding(withAllowedCharacters: .urlQueryValueAllowed) ?? ""
+            return escapedKey + "=" + escapedValue
+            }
+            .joined(separator: "&")
+    }
+}
+
+extension CharacterSet {
+    static let urlQueryValueAllowed: CharacterSet = {
+        let generalDelimitersToEncode = ":#[]@" // does not include "?" or "/" due to RFC 3986 - Section 3.4
+        let subDelimitersToEncode = "!$&'()*+,;="
+        
+        var allowed = CharacterSet.urlQueryAllowed
+        allowed.remove(charactersIn: "\(generalDelimitersToEncode)\(subDelimitersToEncode)")
+        return allowed
+    }()
+}

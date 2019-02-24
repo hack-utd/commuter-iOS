@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Whooosh/NavigationControllers/Profile.swift"
+            timestampString = "572724522.2715189"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "ProfileManagemntController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Whooosh/NavigationControllers/Profile.swift"
+            timestampString = "572724522.271587"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.ProfileManagemntController.__allocating_init(style: __C.UITableViewStyle) -&gt; Whooosh.ProfileManagemntController"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/NavigationControllers/Profile.swift"
+                  timestampString = "572701761.602993"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.ProfileManagemntController.init(style: __C.UITableViewStyle) -&gt; Whooosh.ProfileManagemntController"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/NavigationControllers/Profile.swift"
+                  timestampString = "572701761.606926"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.ProfileManagemntController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Whooosh.ProfileManagemntController"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/NavigationControllers/Profile.swift"
+                  timestampString = "572701761.6089621"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.ProfileManagemntController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Whooosh.ProfileManagemntController"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/NavigationControllers/Profile.swift"
+                  timestampString = "572701761.6107579"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.ProfileManagemntController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Whooosh.ProfileManagemntController&gt;"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/NavigationControllers/Profile.swift"
+                  timestampString = "572701761.612536"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.ProfileManagemntController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Whooosh.ProfileManagemntController&gt;"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/NavigationControllers/Profile.swift"
+                  timestampString = "572701761.614112"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.ProfileManagemntController.__deallocating_deinit"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/NavigationControllers/Profile.swift"
+                  timestampString = "572701761.615695"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Whooosh/NavigationControllers/Profile.swift"
+            timestampString = "572724522.271641"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "ProfileManagemntController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.ProfileManagemntController.__allocating_init(style: __C.UITableViewStyle) -&gt; Whooosh.ProfileManagemntController"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/NavigationControllers/Profile.swift"
+                  timestampString = "572701763.9223371"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.ProfileManagemntController.init(style: __C.UITableViewStyle) -&gt; Whooosh.ProfileManagemntController"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/NavigationControllers/Profile.swift"
+                  timestampString = "572701763.924454"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.ProfileManagemntController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Whooosh.ProfileManagemntController"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/NavigationControllers/Profile.swift"
+                  timestampString = "572701763.926555"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.ProfileManagemntController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Whooosh.ProfileManagemntController"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/NavigationControllers/Profile.swift"
+                  timestampString = "572701763.928435"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.ProfileManagemntController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Whooosh.ProfileManagemntController&gt;"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/NavigationControllers/Profile.swift"
+                  timestampString = "572701763.930028"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.ProfileManagemntController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Whooosh.ProfileManagemntController&gt;"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/NavigationControllers/Profile.swift"
+                  timestampString = "572701763.931772"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.ProfileManagemntController.__deallocating_deinit"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/NavigationControllers/Profile.swift"
+                  timestampString = "572701763.933421"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Whooosh/Components/jobsTableView.swift"
+            timestampString = "572724522.271695"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "editFilterHandler(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Whooosh/Components/jobsTableView.swift"
+            timestampString = "572724522.272312"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "handleAPIPush(Location:Keyword:Radius:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Whooosh/Components/jobsTableView.swift"
+            timestampString = "572724522.2727571"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "handleAPIPush(Location:Keyword:Radius:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Whooosh.jobsTableView.(handleAPIPush in _4BFC312923B4F6979FF8E957A1C979BD)(Location: Swift.Array&lt;Swift.String&gt;, Keyword: Swift.Array&lt;Swift.String&gt;, Radius: Swift.Int) -&gt; ()"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/Components/jobsTableView.swift"
+                  timestampString = "572723900.716069"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "1644">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Whooosh.jobsTableView.(handleAPIPush in _4BFC312923B4F6979FF8E957A1C979BD)(Location: Swift.Array&lt;Swift.String&gt;, Keyword: Swift.Array&lt;Swift.String&gt;, Radius: Swift.Int) -&gt; ()"
+                  moduleName = "Whooosh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trujamal/Documents/Development/Jetbrains%20Files/AppCodeProjects/whooosh-swift/Whooosh/Components/jobsTableView.swift"
+                  timestampString = "572723900.71881"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Whooosh/Components/jobsTableView.swift"
+            timestampString = "572724522.273191"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "handleAPIPush(Location:Keyword:Radius:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Whooosh/Components/jobsTableView.swift"
+            timestampString = "572724522.273622"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "handleAPIPush(Location:Keyword:Radius:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Whooosh/Components/jobsTableView.swift"
+            timestampString = "572733662.478483"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "jobsObject"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
