@@ -9,7 +9,7 @@ HackUTD Starter Project
 We recommend you clone the repo for easiest implementation:
 
 ```
-git clone https://github.com/trujamal/whooosh-swift.git
+git clone https://github.com/hack-utd/commuter-swift.git
 ```
 
 ## Usage
