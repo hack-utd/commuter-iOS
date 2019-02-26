@@ -1,7 +1,7 @@
 # whooosh-swift
 [![Swift 4.0](https://img.shields.io/badge/Swift-4.0-green.svg?style=flat)](https://developer.apple.com/swift/)
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Cuberto/flashy-tabbar/master/LICENSE)
-[![Logo](https://cl.ly/99493929183f/Image%202019-02-20%20at%202.49.57%20AM.png)](https://veveusa.com)
+[![Logo](https://cl.ly/b13748b53914/Image%202019-02-26%20at%202.16.45%20AM.png)](https://veveusa.com)
 
 HackUTD Starter Project
 
